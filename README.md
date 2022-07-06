@@ -17,4 +17,4 @@ The following have been applied to the code:
 3. CSS selectors and properties have been rearrange to match the semantic order of the html.
 4. Comments have been included in the CSS file.
 
-![Screenshot of webpage](https://github.com/smiller-2019/module-01-challenge/blob/main/assets/images/Horiseon-screenshot.jpg) Format: ![Horiseon webpage for search engine optimization, online reputation management and social media marketing](https://smiller-2019.github.io/module-01-challenge/)
+![Screenshot of webpage](https://github.com/smiller-2019/module-01-challenge/blob/main/assets/images/Horiseon-screenshot.jpg)
