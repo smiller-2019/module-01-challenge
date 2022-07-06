@@ -1,13 +1,16 @@
+/* universal selector initilisation of padding, margin and box-sizing */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* body element selector background colour initialsided */
 body {
   background-color: #d9dcd6;
 }
 
+/* header class selector formatting applied*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +19,18 @@ body {
   color: #ffffff;
 }
 
+/* header class selector h1 element display and formatting applied*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* header class selector h1 element class (span) colour applied*/
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/* header class selector nav element box model properties and font formatting applied*/
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +39,29 @@ body {
   font-size: 20px;
 }
 
+/* header class selector nav and ul element list style removed*/
 .header nav ul {
   list-style-type: none;
 }
 
+/* header class selector nav ul and li elements display inline with no newline and left margin applied*/
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* anchor element underline removed and color changed to white*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* p element font sizing applied*/
 p {
   font-size: 16px;
 }
 
+/* hero class selector sizing set and background image applied */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +71,26 @@ p {
   background-position: center;
 }
 
+/* content class selector element box model properties formatting applied*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* class selector applied to apporpirate elements for formatting layout to the left*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* float-right class selector applied to apporpirate elements for formatting layout to the right*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* search-engine-optimization class selector properties and box model properties formatting applied and font families defaults set*/
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -85,6 +100,7 @@ p {
   color: #ffffff;
 }
 
+/* online-reputation-management class selector properties and box model properties formatting applied and font families defaults set*/
 .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
@@ -94,6 +110,7 @@ p {
   color: #ffffff;
 }
 
+/* social-media-marketing class selector properties and box model properties formatting applied and font families defaults set*/
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -103,33 +120,39 @@ p {
   color: #ffffff;
 }
 
+/* search-engine-optimization class selector image element maximum height applied */
 .search-engine-optimization img {
   max-height: 200px;
 }
 
+/* online-reputation-management class selector image element maximum height applied */
 .online-reputation-management img {
   max-height: 200px;
 }
 
+/* search-media-marketing class selector image element maximum height applied */
 .social-media-marketing img {
   max-height: 200px;
 }
 
+/* search-engine-optimization class selector h2 element margin bottom and font size applied */
 .search-engine-optimization h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* online-repuation-management class selector h2 element margin bottom and font size applied */
 .online-reputation-management h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* social-media-marketing class selector h2 element margin bottom and font size applied */
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
+/* benefits class selector properties and box model properties formatting applied and font families defaults set*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -141,54 +164,64 @@ p {
   background-color: #2589bd;
 }
 
+/* benefit-lead class selector margin bottom and font color applied */
 .benefit-lead {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* benefit-brand class selector margin bottom and font color applied */
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* benefit-cost class selector margin bottom and font color applied */
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* benefit-lead class selector margin bottom and text alignement applied */
 .benefit-lead h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* benefit-brand class selector margin bottom and text alignement applied */
 .benefit-brand h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* benefit-cost class selector margin bottom and text alignement applied */
 .benefit-cost h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* benefit-lead class selector image element display, margin and maximum witdth applied */
 .benefit-lead img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* benefit-brand class selector image element display, margin and maximum witdth applied */
 .benefit-brand img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* benefit-cost class selector image element display, margin and maximum witdth applied */
 .benefit-cost img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* footer class selector box model, font family defaults and text alignment applied */
 .footer {
   padding: 30px;
   clear: both;
@@ -197,6 +230,7 @@ p {
   text-align: center;
 }
 
+/* footer class selector font size applied */
 .footer h3 {
   font-size: 20px;
 }
